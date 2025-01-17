@@ -1,0 +1,264 @@
+#bckgroundImg>img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+
+#heading{
+    position: absolute;
+    top: 0;
+    left: 280px;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 20px;
+    /*color: #F5C584;*/
+    color: black;
+}
+
+#homeBtn{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+#logsPage{
+    width: 150px;
+    height: 25px;
+    /*background-color: yellow;*/
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+    margin: auto;
+    background-image: url("logsBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#reportsForm{
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: -200px;
+    margin: auto;
+    background-image: url("reportsFormBackgroung.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#reportsForm:hover{
+    cursor: pointer;
+    /*opacity: 90%;*/
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#logsPage:hover{
+    cursor: pointer;
+    /*opacity: 90%;*/
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#homeBtn>a>button{
+    width: fit-content;
+    height: fit-content;
+    border-bottom-right-radius: 45px;
+    -moz-border-radius-topright: 45px;
+    background-color: white;
+}
+
+#homeBtn>a>button>img{
+    width: 20px;
+    height: 20px;
+    opacity: 100%;
+}
+
+#forms>div:hover{
+    cursor: pointer;
+    /*opacity: 90%;*/
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#forms>div:hover>a>h6:first-child{
+    display: block;
+    transform: translateY(-20px); /* Start slightly above */
+    animation: fadeDown 1s forwards; /* Call the animation */
+}
+
+/* Define the fade-down animation */
+@keyframes fadeDown {
+    0% {
+        opacity: 0; /* Start fully transparent */
+        transform: translateY(-20px); /* Start slightly above */
+    }
+    100% {
+        opacity: 1; /* End fully visible */
+        transform: translateY(0); /* End at its original position */
+    }
+}
+
+#forms>div:hover>a>h6:nth-child(2){
+    display: block;
+    transform: translateY(-20px); /* Start slightly above */
+    animation: fadeDown 1s forwards; /* Call the animation */
+}
+
+/* Define the fade-down animation */
+@keyframes fadeDown {
+    0% {
+        opacity: 0; /* Start fully transparent */
+        transform: translateY(-20px); /* Start slightly above */
+    }
+    100% {
+        opacity: 1; /* End fully visible */
+        transform: translateY(0); /* End at its original position */
+    }
+}
+
+#forms>div>a>h6:first-child{
+    width: fit-content;
+    display: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 50px;
+}
+
+#forms>div>a>h6:nth-child(2){
+    width: fit-content;
+    height: 180px;
+    display: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+    bottom: 0;
+    right: 0;
+    left: 20px;
+}
+
+#forms>div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#forms{
+    width: fit-content;
+    height: fit-content;
+}
+
+#fieldForm{
+    width: 200px;
+    height: 250px;
+    /*background-color: red;*/
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: -550px;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10px;
+    /*opacity: 90%;*/
+    background-image: url("fieldH.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#staffForm{
+    width: 200px;
+    height: 250px;
+    /*background-color: #BBC6B5;*/
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: -140px;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10px;
+    /*opacity: 90%;*/
+    background-image: url("staffH.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cropsForm{
+    width: 200px;
+    height: 250px;
+    /*background-color: #BBC6B5;*/
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 270px;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10px;
+    /*opacity: 90%;*/
+    background-image: url("cropsH.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#toolsForm{
+    width: 200px;
+    height: 250px;
+    /*background-color: #BBC6B5;*/
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 550px;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10px;
+    /*opacity: 90%;*/
+    background-image: url("equipmentsH.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#vehicleForm{
+    width: 200px;
+    height: 250px;
+    /*background-color: #BBC6B5;*/
+    /*position: absolute;*/
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 550px;
+    margin: auto;
+    z-index: 1;
+    border-radius: 10px;
+    /*opacity: 95%;*/
+    background-image: url("vehiclesH.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#forms{
+    width: 97vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    left: 13px;
+}
