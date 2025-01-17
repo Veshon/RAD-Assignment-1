@@ -1,0 +1,267 @@
+body {
+    background-color: #FFF8E6 !important;
+}
+
+#heading{
+    position: absolute;
+    top: 0;
+    left: 350px;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #F5C584;
+    /*text-shadow: 0px 3px 5px rgba(185, 143, 90, 1);*/
+}
+
+#homeBtn{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+#homeBtn>a>button{
+    width: fit-content;
+    height: fit-content;
+    border-bottom-right-radius: 45px;
+    -moz-border-radius-topright: 45px;
+    background-color: white;
+}
+
+#homeBtn>a>button>img{
+    width: 20px;
+    height: 20px;
+    opacity: 100%;
+}
+
+#fieldHeading{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F5C584;
+}
+
+#vehicleHeading{
+    position: absolute;
+    top: 1070px;
+    left: 50px;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F5C584;
+}
+
+#equipmentHeading{
+    position: absolute;
+    top: 760px;
+    left: 50px;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F5C584;
+}
+
+#cropHeading{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F5C584;
+}
+
+#staffHeading{
+    position: absolute;
+    top: 1375px;
+    left: 50px;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F5C584;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#staffTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+#staffTable th div {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.resize-handle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10px; /* Width of the handle */
+    height: 100%;
+    cursor: col-resize;
+    z-index: 1;
+}
+
+/* Ensure the table layout is fixed */
+#table {
+    table-layout: fixed; /* Fixed layout to respect specified widths */
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove spacing between cells */
+}
+
+#staffTable {
+    table-layout: fixed; /* Fixed layout to respect specified widths */
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove spacing between cells */
+}
+
+/* Style for all table cells */
+td, th {
+    border: 1px solid #ddd; /* Border for visibility */
+    padding: 4px; /* Add padding */
+    text-align: center; /* Center text in cells */
+    overflow: hidden; /* Prevent overflow */
+    white-space: nowrap; /* Prevent text wrapping */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+}
+
+#table {
+    table-layout: fixed;
+    max-width: 700px;
+    width: 700px;
+    height: 200px;
+    font-size: 10px;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#staffTable {
+    table-layout: fixed;
+    max-width: 700px;
+    width: 400px;
+    height: 200px;
+    font-size: 10px;
+    position: absolute;
+    top: 1500px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+th{
+    max-width: fit-content(50px);
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+}
+
+thead{
+    max-width: fit-content(50px);
+    width: 50px;
+    height: 50px;
+}
+
+#td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10px;
+}
+
+#tableVehicle {
+    table-layout: fixed;
+    max-width: 700px;
+    width: 700px;
+    height: 200px;
+    font-size: 10px;
+    position: absolute;
+    top: 1200px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#equipmentTable {
+    table-layout: fixed;
+    max-width: 700px;
+    width: 700px;
+    height: 200px;
+    font-size: 10px;
+    position: absolute;
+    top: 890px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#cropsTable {
+    table-layout: fixed;
+    max-width: 700px;
+    width: 700px;
+    height: 200px;
+    font-size: 10px;
+    position: absolute;
+    top: 630px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#buttons{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+}
+
+#buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#buttons>a>button{
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    font-family: Calibri;
+    font-weight: bold;
+    border-radius: 20px;
+    border-color: #DCBB8C;
+    background-color: #DCBB8C;
+    color: white;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#buttons>a>button:hover{
+    background-color: #C9A174;
+    border-color: #C9A174;
+}
+
+#buttons>a>button:active{
+    background-color: #DCBB8C;
+}
+
+#buttons>a{
+    text-decoration: none;
+}
